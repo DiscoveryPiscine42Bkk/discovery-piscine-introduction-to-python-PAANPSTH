@@ -3,11 +3,12 @@
 print("What you gotta say? : ", end="")
 x = input()
 while True:
-    if x != "STOP":
-        print("I got that! Anything else? : ", end="")
-        input()
-    else:
+    if x == "STOP" :
         break
+
+    else:
+        print("I got that! Anything else? : ", end="")
+        x = input()
         
         
         
