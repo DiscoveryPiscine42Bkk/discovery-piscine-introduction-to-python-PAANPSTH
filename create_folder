@@ -1,0 +1,4 @@
+for ($i = 0; $i -le 5; $i++) {
+>>     $folderName = "ex{0:D2}" -f $i
+>>     New-Item -ItemType Directory -Name $folderName
+>> }
