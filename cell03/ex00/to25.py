@@ -6,6 +6,6 @@ x = int(input())
 if x > 25:
     print("Error")
 
-while x < 25:
+while x <= 25:
     x += 1
-    print(f"Inside the loop, my variable is {x}")
+    print(f"Inside the loop, my variable is {x - 1}")
