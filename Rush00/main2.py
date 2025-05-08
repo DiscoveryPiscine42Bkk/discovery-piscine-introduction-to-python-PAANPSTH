@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-def main(board):
+def main():
     n = len(board)
     if n == 0 or n != c:
         return
